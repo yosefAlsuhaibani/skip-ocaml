@@ -133,6 +133,10 @@ type tracker = int
 type 'a marshalled = string
 
 let read_file filename tracker =
+  if !toplevel
+  then if !has_exited
+       then ()
+       else failwith "Cannot read a file at toplevel before exit";
   let ic = open_in_bin filename in
   let len = in_channel_length ic in
   let content = really_input_string ic len in
