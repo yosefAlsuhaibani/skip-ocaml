@@ -1,12 +1,9 @@
 opam-version: "2.0"
-synopsis: "eio"
-description: "An effect-based IO API for multicore OCaml with fibers."
-maintainer: ["anil@recoil.org"]
-authors: ["Anil Madhavapeddy" "Thomas Leonard"]
-license: "ISC"
-homepage: "https://github.com/ocaml-multicore/eio"
-doc: "https://ocaml-multicore.github.io/eio/"
-bug-reports: "https://github.com/ocaml-multicore/eio/issues"
+synopsis: "skip"
+description: ""
+maintainer: [""]
+authors: ["" ""]
+license: "MIT"
 depends: []
 conflicts: []
 build: [
