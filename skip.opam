@@ -1,0 +1,13 @@
+opam-version: "2.0"
+synopsis: "skip"
+description: ""
+maintainer: [""]
+authors: ["" ""]
+license: "MIT"
+depends: []
+conflicts: []
+build: [
+  [
+  "make"
+  ]
+]
