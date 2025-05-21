@@ -510,7 +510,6 @@ CAMLprim value oskip_map(
   }
 
   sk_reset_delayedCalls();
-  SKIP_ocamlClearDirty(context, parentDirName, preparedDirName, targetDirName, dedupDirName);
   rootContext = SKIP_ocamlSync(rootContext, context);
   oskip_fresh_obstack();
   context = SKIP_ocamlMCloneContext(rootContext);
