@@ -6,8 +6,4 @@ authors: ["" ""]
 license: "MIT"
 depends: []
 conflicts: []
-build: [
-  [
-  "make"
-  ]
-]
+build: ["make"]
