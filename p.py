@@ -1,0 +1,1 @@
+f = exec(input())
